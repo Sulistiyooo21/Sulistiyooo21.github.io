@@ -1,5 +1,5 @@
-<html lang="en">
-    <!--Contoh Penggunaan CSS "Style"-->
+<!DOCTYPE html>
+    <!--CONTOH PENGGUNAAN CSS-->
     <style>
     body {
         background-color:rgba(255, 240, 127, 0.991);  
@@ -12,17 +12,20 @@
     border-radius: 270px;
     }
     </style>
+    <!--Dalam contoh di atas Tag Mengacu pada Syntax "style" yang berisikan Pengaturan Pada Body dan img
+    "contoh-class" Ketika kita membuka halaman HTML ini di peramban, Elemen teks dengan kelas "contoh-class" 
+    Akan mewarisi gaya yang telah kita tetapkan dalam file CSS.-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujian Tengah Semester Ganjil</title>
+    <title>Ujian Akhir Semester Ganjil</title>
 </head>
 <body style="margin-left: 20px;">
     <pre>
         <hr color="red" size="4" width="175%" align="left">
                 
-                  <a href="#home">Home</a> <a href="#profil">Profil</a> <a href="#about">About</a> <a href="#kontak">Kontak</a>
-                
+                  <a href="#home">Home</a> <a href="#profil">Profil</a> <a href="#about">About</a> <a href="#kontak">Kontak</a> <a href="#Kalkulator">Kalkulator</a> <a href="#Notifikasi">Notifikasi</a> <a href="#DialogBox">DialogBox</a>
+
               <hr color="blue" size="4" width="175%" align="left">
               <div class="container">
           
@@ -39,7 +42,7 @@
   </section>
 
   <!-- Foto Profil -->
-  <section id="profil"> <h2>ProfilKu:</h2>
+  <section id="profil"> <h1>ProfilKu:</h1>
     <br>
     <img src="Foto_Sulistiyoo21.jpg" alt="Foto Profil">
     <table>
@@ -64,7 +67,7 @@
   </table>
 
   <!-- Alamat Maps -->
-  <h3>Alamat Tempat Tinggal: </h3>
+  <h1>Alamat Tempat Tinggal: </h1>
   <div class="container">
     <div class="maps-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3964.7074525785583!2d106.726695!3d-6.431614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjUnNTMuOCJTIDEwNsKwNDMnMzYuMSJF!5e0!3m2!1sid!2sid!4v1695994479943!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -72,13 +75,13 @@
 </section>
 
 <section id="about">
-    <h2>About</h2>
+    <h1>About PribadiKu: </h1>
     Saya memiliki Kelebihan bisa Memberikan Pembelajaran Tentang Kegiatan Kepramukaan dan Memeberikan Motivasi Hidup Terhadap Sesama!
     Saya selalu berusaha untuk meningkatkan keterampilan dan pengetahuan saya di bidang Kepramukaan. Saya juga aktif mengikuti berbagai workshop dan seminar untuk memperkaya wawasan saya.
   </section>
 
   <!-- Penomoran Bullet -->
-  <h3>Teman-teman TerbaikKu: </h3>
+  <h1>Teman-teman TerbaikKu: </h1>
         <li>Rahdat Jajuly</li>
         <li>Dika Kurnia Putra</li>
         <li>Resta Rahastiani</li>
@@ -86,7 +89,7 @@
         <li>Sodiqun As</li>
 
   <!-- Musik -->
-  <h3>Musik FavoritKu: </h3>
+  <h1>Musik FavoritKu: </h1>
   <div class="audio-container">
     <audio controls>
         <source src="Audio_Web.mp3" type="audio/mp3">
@@ -94,19 +97,20 @@
 </div>
 
 <!-- Video -->
-<h3>Video FavoritKu: </h3>
+<h1>Video FavoritKu: </h1>
 <div class="video-container">
   <iframe width="460"height="315" src="https://www.youtube.com/embed/BifjNez3npI?si=pAGxSI3eayRML9MZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-  <section id="kontak"> <h2>Kontak PribadiKu:</h2>
+  <section id="kontak"> 
+    <h1>Kontak PribadiKu:</h1>
     Hallo Teman-teman!!!
     Berikut Merupakan Web Buatanku. Web ini berisi informasi tentang Data Pribadiku. 
     Semoga Web ini dapat menginspirasi kalian untuk menambahkan Referensi Pembelajaran.<a href="https://youtube.com/@Sulistiyooo_?si=BgwN5Sjp6IBtViRB">Kunjungi Youtube Saya</a>
     Jika Ada yang Ingin Ditanyakan Silahkan Hubungi <a href="https://sulistiyooo21@gmail.com">Klik Disini</a>
 
     <!-- Table Bullet Numbering -->
-    <h3>Tabel Bullet n Numbering: </h3>
+    <h1>Tabel Bullet n Numbering: </h1>
             <style>
                 caption { 
                 color:rgb(237, 100, 100);
@@ -169,4 +173,146 @@
         </table>
 </pre> 
 </body>
+</html>
+
+<!--CONTOH PENGGUNAAN JAVASCRIPT-->
+<!DOCTYPE html>
+<html>
+<head>
+    <section id="Kalkulator">
+    <title>Kalkulator Sederhana</title>
+    <style>
+        h2 { 
+          color:rgb(237, 139, 100);
+          text-align:center;
+          font-family: 'Times New Roman', Times, serif;
+        }
+
+        h3 { 
+        color:rgb(0, 8, 4);
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        }
+
+        h4 { 
+        color:rgb(0, 8, 4);
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        }
+      </style>
+</head>
+<body>
+    <h2>JavaScript Kalkulator Sederhana</h2>
+    <p><h3>MASUKKAN NILAI I:
+    <input type="number" id="nilai1" name="nilai1">
+    <select id="operasi" name="operasi">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    MASUKKAN NILAI II:
+    <input type="number" id="nilai2" name="nilai2">
+    <button onclick="hitung()">Submit</button></p></h3> 
+
+    <h4> HASILNYA: <input type="number" id="hasil" name="hasil" readonly></h4>
+    <script>
+        function hitung() {
+            var nilai1 = parseFloat(document.getElementById("nilai1").value);
+            var nilai2 = parseFloat(document.getElementById("nilai2").value);
+            var operasi = document.getElementById("operasi").value;
+            var hasil = 0;
+
+            switch (operasi) {
+                case "+":
+                    hasil = nilai1 + nilai2;
+                    break;
+                case "-":
+                    hasil = nilai1 - nilai2;
+                    break;
+                case "*":
+                    hasil = nilai1 * nilai2;
+                    break;
+                case "/":
+                    if (nilai2 != 0) {
+                        hasil = nilai1 / nilai2;
+                    } else {
+                        alert("Pembagian dengan nol tidak diizinkan");
+                    }
+                    break;
+            }
+
+            document.getElementById("hasil").value = hasil;
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <section id="Notifikasi">
+  <title>Menerima Notifikasi</title>
+  <script>
+    function greet() {
+      var name = document.getElementById("name").value;
+      var greeting = "Halo, " + name + "!";
+      document.getElementById("result").innerHTML = greeting;
+    }
+  </script>
+</head>
+
+<body>
+<h2>JavaScript Menerima Notifikasi</h2>
+<p>SULISTIYO NUGROHO</p>
+<p>05TPLE009</p>
+<p>PEMROGRAMAN WEB 1</p>
+<input type="text" id="name">
+<button onclick="greet()">Send</button>
+<p id="result"></p>
+</body>
+
+<!--PENGGUNAAN DIALOG BOX-->
+<body>
+  <section id="DialogBox">
+    <h2>Penggunaan Dialog Box</h2>
+  <table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><input id="nama" type="text"></td>
+    </tr>
+    <tr>
+        <td>No telp</td>
+        <td>:</td>
+        <td><input id="telp" type="text"></td>
+    </tr>
+    <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td><input id="topik" type="text"></td>
+    </tr>
+    <tr>
+        <td colspan="3"><button id="submit">Submit</button></td>
+    </tr>
+</table>
+</body>
+<script>
+
+const submit = document.getElementById('submit');
+
+submit.addEventListener('click', (e) => {
+    e.preventDefault();
+    const nama = document.getElementById('nama').value;
+    const telp = document.getElementById('telp').value;
+    const topik = document.getElementById('topik').value;
+    if (nama && telp && topik) {
+        alert(`Terima kasih ${nama} atas topik ${topik} yang anda berikan. no. telp ${telp} akan kami hubungi.`)
+    }else{
+        alert(`Harap mengisi semua form yang tersedia.`)
+    }
+})
+</script>
 </html>
